@@ -10,12 +10,12 @@ General User Scoring System
 
 # Intro
 
-General library for **users scoring**. 
-Helps to make a scoring system for user in systems with high standards and demand for **credit of trust calculation**.
+General library for **user scoring**. 
+Intended to use in systems with high standards and demand for **credit of trust calculation**.
 
 Implements special **Time-stable Randomized Credit** (or TsRC for short) algorithm.
-TsRC is the algorithm which gives values for any given user with special properties:
-it does not change much with time, giving most reliable results to score any user credit of trust analyzing all the important properties. 
+TsRC is the algorithm which gives stable values for any given user with special properties: 
+it does not change much during the time, giving the most reliable scoring results depending on the most important user properties. 
 
 # Usage
 
@@ -25,10 +25,15 @@ import guss
 guss.get_credit(user_name)
 ```
 
-Using TsRC algorithm calculates Time-stable Randomized Credit for any given user
+Using TsRC algorithm calculates Time-stable Randomized Credit for any given user (which updates and fluctuates during the time between calls)
 ```
 import guss
 guss.get_time_stable_randomized_credit(user_name)
 ```
 
-For more info about options and algorithm parameters tuning please see source code.
+For more info about algorithm parameters and tuning please see the source code.
+
+# Naming
+
+Term GUSS is the acronym for "General User Scoring System". This totally describes the purpose of this library.
+But also the word "guss" refers to the Russian word "гусь" [гус'] which stands for "goose" in English.
