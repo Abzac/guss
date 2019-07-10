@@ -1,6 +1,9 @@
 # GUSS
 General User Scoring System
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+
 # Intro
 
 General library for **users scoring**. 
