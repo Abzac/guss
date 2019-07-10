@@ -6,6 +6,7 @@ General User Scoring System
 <a href="https://black.readthedocs.io/en/stable/?badge=stable"><img alt="Documentation Status" src="https://readthedocs.org/projects/black/badge/?version=stable"></a>
 <a href="https://github.com/python/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
 
+<img alt="Code style: black" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR59uWO9rvZY7Z9LvTRil2efJtJPInS2E26pw1j2pPbo0v3YcDE">
 
 # Intro
 
